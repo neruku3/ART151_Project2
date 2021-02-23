@@ -1,9 +1,19 @@
-body{
-    color: darksalmon;
-    margin-left: 100px;
-    margin-right: 100px;
-}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
 
-p{
-    color: darkslategray;
-}
+  .centered_title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+  }
+
+  .rover {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+  }
