@@ -12,6 +12,14 @@
     font-size: xx-large;
   }
 
+  .centered_title_hill {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+  }
+
   .roverStart {
     position: absolute;
     top: 18%;
