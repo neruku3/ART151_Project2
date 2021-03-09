@@ -1,55 +1,40 @@
-.container {
-    position: relative;
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.centered_title {
+    background: rgba(0,0,0, 0.5);
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
     text-align: center;
-    color: white;
-  }
-
-  .centered_title {
-    position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: xx-large;
-  }
-
-  .centered_title_hill {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: xx-large;
-  }
-
-  .roverStart {
-    position: absolute;
-    top: 18%;
-    left: 15%;
-  }
-
-  .roverDesert {
-    position: absolute;
-    top: 18%;
-    left: 55%;
-  }
-
-  .roverHill {
-    position: absolute;
-    top: 30%;
-    left: 55%;
-  }
-
-  .roverRiver {
-    position: absolute;
-    top: 40%;
-    left: 55%;
-  }
-
-  .roverCraters {
-    position: absolute;
-    top: 45%;
-    left: 60%;
-  }
-
-  .options {
     color: white;
-  }
+    font-size: x-large;
+    font-family: "Lucida Console", monospace;   
+}
+
+.options {
+    color: white;
+}
+
+.centered_title_backup {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  vertical-align: middle;
+  font-size: x-large;
+  font-family: "Lucida Console", monospace;   
+}
