@@ -20,6 +20,9 @@ body {
 .options {
     color: white;
     text-decoration: none;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: normal;
 }
 
 .centered_title_backup {
