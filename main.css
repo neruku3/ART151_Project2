@@ -5,7 +5,6 @@ body {
 
 .centered_title {
     background: rgba(0,0,0, 0.5);
-    color: white;
     border-radius: 1em;
     padding: 1em;
     position: absolute;
@@ -20,6 +19,7 @@ body {
 
 .options {
     color: white;
+    text-decoration: none;
 }
 
 .centered_title_backup {
